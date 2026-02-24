@@ -1,0 +1,142 @@
+/* Reset */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #EAEAEA;
+  background-color: #1E1E1E;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #FFD700;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #BBB;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #EAEAEA;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FFD700;
+}
+
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #FFD700;
+  margin-bottom: 15px;
+}
+
+
+ul {
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #EAEAEA;
+  font-size: 1.5em;
+}
+
+em {
+  color: #FFD700;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: #BBB;
+  background-color: #222;
+}
+
+
+ /* Style the buttons that are used to open and close the accordion panel */ 
+ .accordion {
+  background-color: #333;
+  color: #FFD700;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #444;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 5px 30px;
+  display: none;
+  overflow: hidden;
+  background-color: #222;
+} 
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style for publication class */
+.publication {
+  background-color: #444;
+  padding: 4px 8px 10px;
+}

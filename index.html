@@ -1,1 +1,264 @@
-work in progress
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Thomas GOEURY - Bioinformatique & Data Science</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Thomas GOEURY</h1>
+    <p>Bioinformaticien & Data Scientist | Doctorat (PhD) en Biologie</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Présentation</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="CV_Goeury.pdf" target="_blank"><em>CV</em></a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Présentation</h2>
+    <p>Data scientist et docteur en biologie (génomique des populations) avec de plus de 10 ans d’expérience dans la
+      conception de pipelines d’analyses et visualisations de données, ainsi que le développement de tableaux de bord
+      interactifs. 
+      <br><br>Passionné par les solutions data-driven, j’ai mené à bien plusieurs projets de grande envergure:
+      création d’un tableau de bord en temps réel pour le suivi de la pandémie de COVID-19 dans le canton de Genève,
+      implémentation d’un système de contact-tracing basé sur Neo4j, développement d’un algorithme de classification de données
+      de séquençage génétique.</p>
+  </section>
+
+
+  <section id="experience">
+    <h2>Expériences professionelles</h2>
+    <ul>
+      <li>
+        <h3>Chercheur post-doctoral, Université de Genève (CH)</h3>
+        <p><em>2023 - 2025</em></p>
+        <p>
+          Analyses statistique des données de séquençages next-gen dans le cadre d’un projet de recherche international
+          étudiant la diversité des gènes HLA (Human Leukocyte Antigen) au sein de 40 populations africaines.
+        </p>
+        <p>
+          Utilisation d'une méthode inédite basée sur les chaînes de Markov pour analyser l'histoire évolutive du complexe majeur
+          d'histocompatibilité (MHC) chez les primates.
+        </p>
+      </li>
+      <li>
+        <h3>Data Scientist, Service du Medecin Cantonal, Genève (CH)</h3>
+        <p><em>2020 - 2022</em></p>
+        <p>Mise en place d'un pipeline d'ETL (Extract, Transform, Load) et d'un dashboard R-Shiny pour visualiser en
+          temps réel l'évolution de la pandémie de COVID-19 dans le canton de Genève. Amélioration continue de ce
+          dashboard tout au long de la pandémie.</p>
+        <p>Développement d'une application de contact-tracing reposant sur une base de données en graphs Neo4j,
+          permettant la détection de nouveaux clusters de contaminations et l'étude des chaînes de contamination.
+        </p>
+        <p>Réalisation de rapports et visualisations des données de la pandémie soutenant les décisonnaires politiques
+          dans leurs décisions (data-driven decisions).
+        </p>
+        <p>Soutien technique et scientifique aux différents métiers du service.</p>
+      </li>
+      <li>
+        <h3>Thèse de doctorat, Université de Genève (CH)</h3>
+        <p><em>2015 - 2020</em></p>
+        <p>Développement de l'algorithme MADaM ({Multiplexed Amplicon Data Miner), pour analyser des données de
+          séquençage next-gen, basé sur une classification non supervisée sur des données fortement biaisées;
+          L'algorithme montre une précision de plus de 98.5%, allant jusqu'à surperformer les solutions existantes de 30%.
+        </p>
+        <p>Analyse des gènes HLA sous le prisme de la théorie de l'information (C. Shanon), permettant de cibler plus
+          efficacement les régions géniques les plus informatives, réduisant ainsi les coûts des analyses de génomiques
+          des populations.</p>
+        <p>Étude comparée des populations Mandenka du Sénégal et Cham du Vietnam, mettant en évidence des signatures de sélection naturelle et de démographie chez les premiers, et d'une fusion de populations au cours de l'histoire évolutive des Cham.</p>
+        <p>Analyse de la diversité moléculaire des exons 2 des gènes HLA de classe II des populations du Sahel en Afrique, mettant notamment en évidence l'impact du pathogène <i>Plamodium falciparum</i>, à l'origine de la malaria.</p>
+        <p>Participation aux enseignements de biologie, statistique, informatique (niveau license et master)</p>
+      </li>
+    </ul>
+  </section>
+
+
+  <section id="skills">
+    <h2>Compétences</h2>
+
+    <button class="accordion">Data Science</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p>Classification supervisée et non supervisée : SVM, regression linéaire (LM et GLM), arbres de décision,
+            réseaux de neurones</p>
+        </li>
+        <li>
+          <p>Clustering : DBSCAN, k-means</p>
+        </li>
+        <li>
+          <p>Réduction de dimensionalité : tSNE, PCA, AFC</p>
+        </li>
+        <li>
+          <p>Natural Language Processing (NLP)</p>
+        </li>
+        <li>
+          <p>Visualisation de données</p>
+        </li>
+        <li>
+          <p>Tableaux de bord interactifs (dashboard)</p>
+        </li>
+        <li><p>Extract, Transform, Load (ETL)</p></li>
+        <li>
+          <p>Outils AI : Intelligence Artificielle Générative, LLM</p>
+        </li>
+        <li>
+          <p>Stack technique (librairies les plus importantes):
+          <ul>
+            <li>
+              <p>Python : sklearn, pandas, numpy, dash</p>
+            </li>
+            <li>
+              <p>R : data.table, shiny, Rtsne, magrittr</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Technical skills</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p>Languages informatiques: Python, R, bash, html/css</p>
+        </li>
+        <li>
+          <p>Systèmes de gestions de bases de données: SQL et Neo4j</p>
+        </li>
+        <li>
+          <p>LaTeX</p>
+        </li>
+        <li>
+          <p>Git</p>
+        </li>
+        <li>
+          <p>Environnements UNIX</p>
+        </li>
+        <li>
+          <p></p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Soft skills</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p>Autonomie et capacité d'initiative</p>
+        </li>
+        <li>
+          <p>Travail en équipe, communication avec les différents métiers</p>
+        </li>
+        <li>
+          <p>Résolution de problèmes</p>
+        </li>
+        <li>
+          <p>Prise de décisions</p>
+        </li>
+        <li>
+          <p>Veille technique et scientifique</p>
+        </li>
+        <li>
+          <p>Rédaction de rapports de synthèses et de documentation</p>
+        </li>
+        <li>
+          <p>Communication scientifique</p>
+        </li>
+        <li>
+          <p>Langues : Français (langue maternelle), Anglais (scientifique, professionel). Notions en Espagnol, Italien et Arpitan</p>
+        </li>
+      </ul>
+      <p></p>
+    </div>
+
+  </section>
+
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+    <div class="publication">
+      <h3>Evidence for Pathogen‐Driven Selection Acting on HLA‐DPB1 in Response to Plasmodium falciparum Malaria in
+        West Africa</h3>
+      <p><em>Ecology and Evolution</em>, 2025
+        <a href="http://dx.doi.org/10.1002/ece3.70933">(lien)</a>
+      </p>
+    </div>
+
+    <div><br></div>
+
+    <div class="publication">
+      <h3>MADaM, an accurate and fast unsupervised algorithm for genotyping of short sequencing reads</h3>
+      <p><em>In prep.</em>,
+        <a href="http://dx.doi.org/10.22541/au.171186124.41293084/v1">(lien)</a>
+      </p>
+    </div>
+
+    <div><br></div>
+
+    <div class="publication">
+      <h3>Contribution à l'étude des facteurs évolutifs déterminant les profils moléculaires des gènes HLA des
+        populations humaines</h3>
+      <p><em>PhD Thesis</em>, 2020
+        <a href="https://archive-ouverte.unige.ch/unige:146553">(lien)</a>
+      </p>
+    </div>
+
+    <div><br></div>
+
+    <div class="publication">
+      <h3>United Arab Emirates: Unusual departure from neutrality towards excess of homozygotes at the HLA‐B locus</h3>
+      <p><em>HLA</em>, 2020
+        <a href="http://dx.doi.org/10.1111/tan.13774">(lien)</a>
+      </p>
+    </div>
+
+    <div><br></div>
+
+    <div class="publication">
+      <h3>Mandenka from Senegal: Next Generation Sequencing typings reveal very high frequencies of particular HLA class
+        II alleles and haplotypes</h3>
+      <p><em>HLA</em>, 2018
+        <a href="http://dx.doi.org/10.1111/tan.13197">(lien)</a>
+      </p>
+    </div>
+
+    <div><br></div>
+
+    <div class="publication">
+      <h3>Deciphering the fine nucleotide diversity of full HLA class I and class II genes in a well‐documented
+        population from sub‐Saharan Africa</h3>
+      <p><em>HLA</em>, 2017
+        <a href="http://dx.doi.org/10.1111/tan.13180">(lien)</a>
+      </p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Vous pouvez me contacter par mail à <a
+        href="mailto:thomas.goeury@protonmail.com">thomas.goeury@protonmail.com</a> ou me joindre sur <a
+        href="https://www.linkedin.com/in/thomas-goeury-191039b0/">LinkedIn</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Dr. Thomas GOEURY - Bioinformatics & Data Science</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
