@@ -136,7 +136,7 @@ footer {
 }
 
 /* Style for publication class */
-.publication {
+.publication .communication {
   background-color: #444;
   padding: 4px 8px 10px;
 }
